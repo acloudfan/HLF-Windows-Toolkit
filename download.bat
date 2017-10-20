@@ -2,7 +2,7 @@
 ::     Script for getting the Images for Fabric environment
 ::     ====================================================
 ::     This script is part of the course on Hyperledger Fabric
-::     More information at htt://ACloudFan.com
+::     More information at http://ACloudFan.com
 ::     Contact: raj@acloudfan.com
 ::     Note:
 ::     ==========================

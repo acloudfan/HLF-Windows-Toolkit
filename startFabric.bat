@@ -1,7 +1,7 @@
 ::     Script for starting the Fabric containers
 ::     =========================================
 ::     This script is part of the course on Hyperledger Fabric
-::     More information at htt://ACloudFan.com
+::     More information at http://ACloudFan.com
 ::     Contact: raj@acloudfan.com
 ::     Note:
 ::     ==========================
