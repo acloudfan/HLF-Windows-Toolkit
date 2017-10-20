@@ -1,5 +1,5 @@
 
-# Local Composer installation for Windows
+# Local Composer Runtime for Windows
 
 Hyperledger Composer development team has provided limited support for the local installation of Composer on Windows platform. The scripts and setup provided here is based on the Ubuntu VM setup for Composer. Windows users can use this for launching a local Composer/Fabric Runtime environment.
 
