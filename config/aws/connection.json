@@ -1,0 +1,19 @@
+{
+    "type": "hlfv1",
+    "orderers": [
+       { "url" : "grpc://ec2-34-229-174-127.compute-1.amazonaws.com:7050" }
+    ],
+    "ca": { "url": "http://ec2-34-229-174-127.compute-1.amazonaws.com:7054", 
+            "name": "ca.org1.example.com"
+    },
+    "peers": [
+        {
+            "requestURL": "grpc://ec2-34-229-174-127.compute-1.amazonaws.com:7051",
+            "eventURL": "grpc://ec2-34-229-174-127.compute-1.amazonaws.com:7053"
+        }
+    ],
+    "keyValStore": "c:/Users/Rajeev/.composer-credentials",
+    "channel": "composerchannel",
+    "mspID": "Org1MSP",
+    "timeout": "300"
+}

@@ -1,0 +1,23 @@
+{
+    "type": "hlfv1",
+    "orderers": [
+        {
+            "url": "grpc://192.168.99.100:7050"
+        }
+    ],
+    "ca": {
+        "url": "http://192.168.99.100:7054",
+        "name": "ca.org1.example.com"
+    },
+    "peers": [
+        {
+            "requestURL": "grpc://192.168.99.100:7051",
+            "eventURL": "grpc://192.168.99.100:7053"
+        }
+    ],
+    "keyValStore": "/CHANGE THIS PATH/.composer-credentials",
+    "channel": "composerchannel",
+    "mspID": "Org1MSP",
+    "timeout": "300"
+}
+

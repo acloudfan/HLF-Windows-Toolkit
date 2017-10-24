@@ -73,16 +73,4 @@ services:
     environment:
       DB_URL: http://localhost:5984/member_db
 
-  tools:
-    container_name: tools
-    image: hyperledger/fabric-ccenv:x86_64-1.0.3
-    # command: mkdir ~/.composer-credentials  &&  mkdir -p ~/.composer-connection/profile/hlfv1 && tail -f /dev/null
-    command: tail -f /dev/null
-    volumes:
-        - /c/host/var:/host/var/run/
-        - /c/composer:/etc/hyperledger/configtx
-        - /c/composer/var:/etc/hyperledger/connection
-    depends_on:
-        - orderer.example.com
-        - peer0.org1.example.com
-        - ca.org1.example.com
+
